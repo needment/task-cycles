@@ -25,7 +25,7 @@ export function rangeSum(start, end) {
 export function iterationCount(a) {
     let count = 0;
 
-    while (a / 2 > 0.1) {
+    while (a > 0.1) {
         a /= 2;
         count++;
     }
